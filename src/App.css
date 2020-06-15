@@ -42,6 +42,9 @@
   align-items: center;
   
 }
+ul {
+  padding: 0;
+}
 
 .contacts-item {
   display: flex;
