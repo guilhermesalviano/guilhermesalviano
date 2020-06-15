@@ -16,9 +16,10 @@
   flex-direction: column;
   
   justify-content: center;
-  font-size: calc(10px + 3vmin);
+  font-size: calc(15px + 3vmin);
   color: white;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .App-profile {
@@ -53,6 +54,11 @@
   color: #61dafb;
 }
 
+.App-Text-Description {
+  font-size: 26px;
+  font-weight: normal;
+}
+
 @media only screen and (max-width: 1120px) {
  
   .App {
@@ -63,9 +69,7 @@
 
 
 @media only screen and (max-width: 480px) {
-  .App {
-    padding-top: 0px;
-  }
+  
 
   .App-profile {
     top: 5px; 
@@ -73,6 +77,11 @@
     align-self: center;
     width: 280px;
     height: auto;
+  }
+
+  .App {
+    padding: 40 35px 0 35px;
+    font-size: 26px;
   }
 }
 

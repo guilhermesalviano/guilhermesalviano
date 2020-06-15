@@ -10,6 +10,7 @@ function App() {
         <img src={imgPerfil} className="App-profile" alt="Eu" />
         <div id="App-Text">
           <TypeIt
+            
             getBeforeInit={instance => {
               instance
                 .type("Olá, eu sou o Guibs!")
@@ -18,7 +19,7 @@ function App() {
                 .pause(300)
                 .type("lherme!")
                 .pause(500)
-                .type("<br />E sou um profissional de Marketing digital e Desenvolvedor nas horas vagas.");
+                .type("<br /><span class=\"App-Text-Description\">E sou um profissional de Marketing digital e Desenvolvedor nas horas vagas.</span>");
               return instance;
             }}
           />
