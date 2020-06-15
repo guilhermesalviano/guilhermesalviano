@@ -62,6 +62,15 @@ ul {
   font-weight: normal;
 }
 
+@media only screen and (max-height: 860px ) and (min-width: 600px) {
+ 
+  .App-profile {
+    opacity: 0;
+  }
+
+}
+
+
 @media only screen and (max-width: 1120px) {
  
   .App {

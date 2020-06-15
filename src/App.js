@@ -27,17 +27,17 @@ function App() {
         <div className="App-Contacts">
           <ul className="contacts-list">
             <li className="contacts-item">
-              <a target="_blank" href="https://github.com/Guibs1/Projects">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Guibs1/Projects">
                 <FaGithub size={52} color="#fff" />
               </a>
             </li>
             <li className="contacts-item">
-              <a target="_blank" href="https://www.linkedin.com/in/guilherme-salviano/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/guilherme-salviano/">
                 <FaLinkedinIn size={52} color="#fff" />
               </a>
             </li>
             <li className="contacts-item">
-              <a target="_blank" href="https://www.instagram.com/elguibs_/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/elguibs_/">
                 <FaInstagram size={52} color="#fff" />
               </a>
             </li>
