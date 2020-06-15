@@ -16,8 +16,9 @@
   flex-direction: column;
   
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
+  padding-top: 20px;
 }
 
 .App-profile {
@@ -29,11 +30,8 @@
 }
 
 .App-Text {
-  position: absolute;
   display: flex;
   align-self: center;
-  width: 100%;
-  margin-top: 50px;
 }
 
 .contacts-list {
@@ -55,9 +53,32 @@
   color: #61dafb;
 }
 
+@media only screen and (max-width: 1120px) {
+ 
+  .App {
+    padding-top: 90px;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .App {
+    padding-top: 0px;
+  }
+
+  .App-profile {
+    top: 5px; 
+    position: absolute;
+    align-self: center;
+    width: 280px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .App-profile {
-    top: 30px; 
+    top: 5px; 
     position: absolute;
     align-self: center;
     width: 200px;
