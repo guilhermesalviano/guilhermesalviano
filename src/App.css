@@ -1,5 +1,15 @@
 .App {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  font-size: calc(15px + 3vmin);
+  color: white;
+  padding-top: 20px;
+  font-weight: bold;
 }
 
 .App-profile {
@@ -7,19 +17,6 @@
   height: 350px;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.App {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  
-  justify-content: center;
-  font-size: calc(15px + 3vmin);
-  color: white;
-  padding-top: 20px;
-  font-weight: bold;
 }
 
 .App-profile {
@@ -99,10 +96,15 @@ ul {
 
 @media only screen and (max-width: 380px) {
   .App-profile {
-    top: 5px; 
+    top: 25px; 
     position: absolute;
     align-self: center;
     width: 200px;
     height: auto;
+  }
+
+  .App {
+    padding: 68 35px 0 35px;
+    font-size: 26px;
   }
 }
