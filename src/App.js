@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeIt from "typeit-react";
-import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import imgPerfil from './images/perfil.jpeg';
 import './App.css';
 
@@ -39,6 +39,11 @@ function App() {
             <li className="contacts-item">
               <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/elguibs_/">
                 <FaInstagram size={52} color="#fff" />
+              </a>
+            </li>
+            <li className="contacts-item">
+              <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511948449969&text=Olá+Guilherme,+encontrei+seu+número+pelo+seu+site+e+">
+                <FaWhatsapp size={52} color="#fff" />
               </a>
             </li>
           </ul>
