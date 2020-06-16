@@ -37,8 +37,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  overflow: hidden;
+  animation-name: move;
+  animation-duration: 2.2s;
+  animation-delay: 12.6s;
+  animation-fill-mode: both;
 }
+
 ul {
   padding: 0;
 }
@@ -67,7 +72,6 @@ ul {
 
 }
 
-
 @media only screen and (max-width: 1120px) {
  
   .App {
@@ -75,7 +79,6 @@ ul {
   }
 
 }
-
 
 @media only screen and (max-width: 480px) {
   
@@ -106,5 +109,15 @@ ul {
   .App {
     padding: 68 35px 0 35px;
     font-size: 26px;
+  }
+}
+
+@keyframes move {
+  from{
+    opacity: 0;
+    transform: translateY(-70%);
+  }to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
