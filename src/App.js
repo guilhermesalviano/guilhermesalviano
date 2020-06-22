@@ -27,7 +27,7 @@ function App() {
         <div className="App-Contacts">
           <ul className="contacts-list">
             <li className="contacts-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Guibs1/Projects">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/guilhermesalviano/Projects">
                 <FaGithub size={52} color="#fff" />
               </a>
             </li>
