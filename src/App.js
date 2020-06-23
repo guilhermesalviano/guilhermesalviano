@@ -37,7 +37,7 @@ function App() {
               </a>
             </li>
             <li className="contacts-item">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/elguibs_/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/guibssalviano">
                 <FaInstagram size={52} color="#fff" />
               </a>
             </li>
