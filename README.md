@@ -1,4 +1,4 @@
-### Olá 👋
+# Seja Bem Vindo 👋
 
 ## Sou um intusista na programação, desbravando o mundo do Marketing.
 - 🔭 Trabalho atualmente como Analista de Marketing na LTM Fidelidade.
