@@ -9,4 +9,4 @@
 - Atualmente trabalho atualmente como Analista de Marketing na LTM Fidelidade.
 
 ## Projetos
-- <a href="https://github.com/guilhermesalviano/Projects">Tenho meus projetos em um Repo específico.</a>
+- <a href="https://github.com/guilhermesalviano/Projects">Ir para projetos.</a>
