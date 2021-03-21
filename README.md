@@ -9,7 +9,7 @@
 - Passei pela LTM Fidelidade como Analista de Marketing
 - Atualmente estou na Enext consultoria como Analista de CRM Pleno [tech].
 
-## Principais linguagens
+<!--## Principais linguagens
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img
@@ -17,7 +17,7 @@
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermesalviano&layout=compact"
     />
   </a>
-</p>
+</p-->
 
 ## Skills
 <p align="center">
