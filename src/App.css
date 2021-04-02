@@ -4,12 +4,30 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
   font-size: calc(15px + 3vmin);
   color: white;
-  padding-top: 20px;
   font-weight: bold;
+}
+
+.nav-header ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-header ul li{
+  font-weight: normal;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.App-Content {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .App-profile {
@@ -17,6 +35,7 @@
   height: 350px;
   object-fit: cover;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .App-profile {
@@ -64,6 +83,20 @@ ul {
   font-weight: normal;
 }
 
+.App-Scroll-Button {
+  overflow: hidden;
+  animation-name: move;
+  animation-duration: 2.2s;
+  animation-delay: 12.6s;
+  animation-fill-mode: both;
+}
+
+.App-Scroll-Button:hover {
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
 @media only screen and (max-height: 860px ) and (min-width: 600px) {
  
   .App-profile {
@@ -75,13 +108,17 @@ ul {
 @media only screen and (max-width: 1120px) {
  
   .App {
-    padding-top: 90px;
+    /* padding-top: 90px; */
   }
 
 }
 
 @media only screen and (max-width: 480px) {
-  
+
+  .App {
+    padding: 40 35px 0 35px;
+    font-size: 26px;
+  }
 
   .App-profile {
     top: 5px; 
@@ -91,9 +128,10 @@ ul {
     height: auto;
   }
 
-  .App {
-    padding: 40 35px 0 35px;
-    font-size: 26px;
+  .nav-header ul li{
+    font-weight: normal;
+    font-size: 12px;
+    padding-right: 20px;
   }
 }
 
