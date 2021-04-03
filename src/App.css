@@ -34,6 +34,10 @@
   text-decoration: none;
   color: #ffffff;
 }
+.nav-header ul li:hover {
+  transition: 0.2s;
+  transform: scale(1.15);
+}
 
 .App-Content {
   display: flex;
@@ -101,6 +105,11 @@ ul {
   padding-right: 26px;
 }
 
+.contacts-item:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -116,12 +125,20 @@ ul {
   animation-duration: 2.2s;
   animation-delay: 0s;
   animation-fill-mode: both;
+  transition: 0.2s;
 }
 
 .App-Scroll-Button:hover {
   position: relative;
+  top: -3px;
+  cursor: pointer;
+}
+
+.App-Scroll-Button:active {
+  position: relative;
   top: 3px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 @media only screen and (max-width: 720px) { /*900px*/

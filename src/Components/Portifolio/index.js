@@ -21,7 +21,7 @@ const Portifolio = () => {
     }, [modal]);
 
     return (
-        <div className="app-portifolio" id="app-portifolio">
+        <div id="app-portifolio">
             <div  onClick={() => setModal(!modal)} className={modal? "app-portifolio-modal-true" : "app-portifolio-modal-false"} >
                 <img src={img} alt="GIGPrint" width="70%" />
             </div>

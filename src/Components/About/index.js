@@ -6,11 +6,7 @@ const About = () => {
     return (
         <div className="app-about" id="app-about">
             <h2>Sobre</h2>
-            <p>Trabalho há mais de 3 anos com CRM utilizando Marketing cloud.
-                Possuo certificacao de Email Specialist, e tecnico em Desenvolvimento de Sistemas pela ETEC.
-                Sou entusiasta em desenvolvimento de Software, onde tenho estudado e trabalhado em paralelo a carreira de Marketing Digital.
-                Desenvolvo solucoes completas de Softwares com estrategias de marketing digital.
-            </p>
+            <p><b>Trabalho com CRM há mais de 3 anos utilizando a Marketing Cloud</b>, a qual possuo certificação de Email Specialist. Sou Técnico em Desenvolvimento de Sistemas na ETEC onde aprendi os conceitos básicos de programação. Atualmente trabalho como Analista de CRM Sênior na Enext Consultoria e <b>atuo como Freelancer nas horas vagas, desenvolvendo soluções completas de programação de marketing digital.</b></p>
         </div>
     );
 }

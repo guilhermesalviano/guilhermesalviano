@@ -24,7 +24,7 @@ function App() {
 					<li><a href="#app-services">Serviços</a></li>
 					<li><a href="#app-portifolio">Portfólio</a></li>
 					{/* <li><a href="#app-contact">Blog</a></li> */}
-					<li><a href="#app-contact">Contatos</a></li>
+					{/* <li><a href="#app-contact">Contatos</a></li> */}
 				</ul>
 			</div>
 			<div className="App-Content" id="app-content">
@@ -35,9 +35,21 @@ function App() {
 							getBeforeInit={(instance) => {
 								console.log(instance);
 								instance
-									.type("E sou desenvolvedor Fullstack!")
+									.type("E sou Fullstack Developer!")
 									.pause(750)
-									.delete(24)
+									.delete(20)
+									.pause(300)
+									.type("CRM Analyst!")
+									.pause(1050)
+									.delete(12)
+									.pause(300)
+									.type("ex-jogador de lolzinho!")
+									.pause(750)
+									.delete(23)
+									.pause(300)
+									.type("Fullstack Developer!")
+									.pause(750)
+									.delete(20)
 									.pause(300)
 									.type("CRM Analyst!")
 									.unfreeze();
@@ -88,7 +100,7 @@ function App() {
 			<About />
 			<Services />
 			<Portifolio />
-			<Contact />
+			{/* <Contact /> */}
 			<Footer />
 		</div>
 	);
