@@ -1,0 +1,38 @@
+.app-services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.app-service {
+    min-width: 160px;
+    max-width: 170px;
+    width: 30%;
+    border: 1px solid #ffffff;
+    padding: 0 26px 0;
+    margin: 0 5px;
+    min-height: 300px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-service:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.app-service svg {
+    padding: 20px 0;
+}
+
+.app-service h4{
+    font-size: 20px;
+    min-height: 46px;
+}
+
+.app-service p{
+    font-size: 16px;
+}

@@ -1,6 +1,6 @@
 .App {
   background-color: #282c34;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,12 +13,20 @@
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  margin-top: 10px;
 }
 
 .nav-header ul li{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header ul li a{
   font-weight: normal;
   font-size: 14px;
   padding-right: 20px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .App-Content {
@@ -89,6 +97,7 @@ ul {
   animation-duration: 2.2s;
   animation-delay: 12.6s;
   animation-fill-mode: both;
+  padding-top: 10%;
 }
 
 .App-Scroll-Button:hover {

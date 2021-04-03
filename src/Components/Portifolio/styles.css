@@ -1,0 +1,9 @@
+.app-portifolio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-portifolio {
+    margin: 0 16px;
+}

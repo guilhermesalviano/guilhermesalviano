@@ -1,4 +1,7 @@
 import React from "react";
+import About from "./Components/About";
+import Services from "./Components/Services";
+import Portifolio from "./Components/Portifolio";
 import TypeIt from "typeit-react";
 import {
 	FaGithub,
@@ -9,21 +12,23 @@ import {
 } from "react-icons/fa";
 import imgPerfil from "./images/perfil.jpeg";
 import "./App.css";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
 	return (
 		<div className="App">
 			<div className="nav-header">
 				<ul>
-					<li>Home</li>
-					<li>Sobre</li>
-					<li>Serviços</li>
-					<li>Portfólio</li>
-					<li>Blog</li>
-					<li>Contatos</li>
+					<li><a href="#app-content">Home</a></li>
+					<li><a href="#app-about">Sobre</a></li>
+					<li><a href="#app-services">Serviços</a></li>
+					<li><a href="#app-portifolio">Portfólio</a></li>
+					<li><a href="#app-contact">Blog</a></li>
+					<li><a href="#app-contact">Contatos</a></li>
 				</ul>
 			</div>
-			<div className="App-Content">
+			<div className="App-Content" id="app-content">
 				<img src={imgPerfil} className="App-profile" alt="Eu" />
 				<div id="App-Text">
 					<TypeIt
@@ -83,8 +88,13 @@ function App() {
 					</ul>
 				</div>
 				<div className="App-Scroll-Button">
-					<FaAngleDown size={52} color="#fff" />
+					<a href="#app-about"><FaAngleDown size={52} color="#fff" /></a>
 				</div>
+				<About />
+				<Services />
+				<Portifolio />
+				<Contact />
+				<Footer />
 			</div>
 		</div>
 	);
