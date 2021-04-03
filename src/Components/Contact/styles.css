@@ -1,5 +1,9 @@
-.app-contact-container {
+.app-contact {
+    width: 100%;
+    max-width: 700px;
+}
 
+.app-contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +18,7 @@
     background-color: #282c34;
     margin-bottom: 5px;
     width: 100%;
-    max-width: 360px;
+    min-width: 300px;
     border-radius: 3px;
     padding: 5px 8px;
     font-family: "Helvetica Neue", Roboto;

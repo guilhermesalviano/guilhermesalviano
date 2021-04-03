@@ -19,11 +19,11 @@ function App() {
 		<div className="App">
 			<div className="nav-header">
 				<ul>
-					<li><a href="#app-content">Home</a></li>
+					<li><a href="#app-content">Início</a></li>
 					<li><a href="#app-about">Sobre</a></li>
 					<li><a href="#app-services">Serviços</a></li>
 					<li><a href="#app-portifolio">Portfólio</a></li>
-					<li><a href="#app-contact">Blog</a></li>
+					{/* <li><a href="#app-contact">Blog</a></li> */}
 					<li><a href="#app-contact">Contatos</a></li>
 				</ul>
 			</div>

@@ -1,6 +1,5 @@
 .App {
   background-color: #282c34;
-  /* height: 100vh; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -43,17 +42,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 55%;
-  padding-left: 34px;
+  padding-left: 130px;
   height: 70vh;
 }
 
 #App-Text {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  text-align: left !important;
 }
 
 #App-Text h3 {
@@ -61,22 +61,16 @@
 }
 
 .App-Content-Image {
-  width:45%;
+  width: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 16px;
 }
 
 .App-Content-Image img {
   width: 90%;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.App-Text {
-  display: flex;
-  align-self: center;
 }
 
 .contacts-list {
@@ -117,7 +111,6 @@ ul {
   animation-duration: 2.2s;
   animation-delay: 0s;
   animation-fill-mode: both;
-  /* padding-top: 10%; */
 }
 
 .App-Scroll-Button:hover {
@@ -135,6 +128,12 @@ ul {
   .App-content-text {
     width: 100%;
     padding: 0 20px;
+    align-items: center;
+  }
+
+  #App-Text {
+    text-align: center !important;
+    align-items: center;
   }
 
 }
@@ -152,13 +151,11 @@ ul {
     align-self: center;
     width: 280px;
     height: auto;
-  }
-
+   }*/
+/*
   .nav-header ul li{
-    font-weight: normal;
     font-size: 12px;
-    padding-right: 20px;
-  } */
+  }  */
 }
 
 @media only screen and (max-width: 380px) {
