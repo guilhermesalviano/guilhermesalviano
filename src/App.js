@@ -30,7 +30,7 @@ function App() {
 			<div className="App-Content" id="app-content">
 				<div className="App-content-text">
 					<div id="App-Text">
-						<h3>Olá, eu sou o Guilherme!</h3>
+						<h3>Olá, eu sou o Guilherme.</h3>
 						<TypeIt element={"span"}
 							getBeforeInit={(instance) => {
 								console.log(instance);

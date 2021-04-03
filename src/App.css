@@ -11,11 +11,15 @@
   justify-content: center;
 }
 
+.nav-header {
+  width: 100%;
+}
+
 .nav-header ul{
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  margin-top: 10px;
+  margin: 20px 0;
 }
 
 .nav-header ul li{
@@ -87,13 +91,14 @@
 
 ul {
   padding: 0;
+  margin: 10px 0;
 }
 
 .contacts-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  padding-right: 26px;
 }
 
 .App-link {
@@ -136,9 +141,20 @@ ul {
     align-items: center;
   }
 
+  .contacts-item {
+    padding: 0;
+    width: 80px;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
+
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   /* .App {
     padding: 40 35px 0 35px;
