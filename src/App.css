@@ -7,6 +7,9 @@
   font-size: calc(15px + 3vmin);
   color: white;
   font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-header ul{
@@ -30,28 +33,45 @@
 }
 
 .App-Content {
-  padding-top: 90px;
   display: flex;
-  flex-direction: column;
   text-align: center;
   justify-content: center;
   width: 100%;
 }
 
-.App-profile {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 50%;
-  opacity: 0;
+.App-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  padding-left: 34px;
+  height: 70vh;
 }
 
-.App-profile {
-  top: 30px; 
-  position: absolute;
-  align-self: center;
-  width: 300px;
-  height: auto;
+#App-Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#App-Text h3 {
+  margin: 0;
+}
+
+.App-Content-Image {
+  width:45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.App-Content-Image img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .App-Text {
@@ -67,7 +87,7 @@
   overflow: hidden;
   animation-name: move;
   animation-duration: 2.2s;
-  animation-delay: 12.6s;
+  /* animation-delay: 12.6s; */
   animation-fill-mode: both;
 }
 
@@ -79,7 +99,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
+  width: 50px;
 }
 
 .App-link {
@@ -95,9 +115,9 @@ ul {
   overflow: hidden;
   animation-name: move;
   animation-duration: 2.2s;
-  animation-delay: 12.6s;
+  animation-delay: 0s;
   animation-fill-mode: both;
-  padding-top: 10%;
+  /* padding-top: 10%; */
 }
 
 .App-Scroll-Button:hover {
@@ -106,25 +126,22 @@ ul {
   cursor: pointer;
 }
 
-@media only screen and (max-height: 860px ) and (min-width: 600px) {
- 
-  .App-profile {
-    opacity: 0;
+@media only screen and (max-width: 720px) {
+
+  .App-Content-Image {
+    display: none;
   }
 
-}
-
-@media only screen and (max-width: 1120px) {
- 
-  .App {
-    /* padding-top: 90px; */
+  .App-content-text {
+    width: 100%;
+    padding: 0 20px;
   }
 
 }
 
 @media only screen and (max-width: 480px) {
 
-  .App {
+  /* .App {
     padding: 40 35px 0 35px;
     font-size: 26px;
   }
@@ -141,11 +158,11 @@ ul {
     font-weight: normal;
     font-size: 12px;
     padding-right: 20px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 380px) {
-  .App-profile {
+  /* .App-profile {
     top: 25px; 
     position: absolute;
     align-self: center;
@@ -156,7 +173,7 @@ ul {
   .App {
     padding: 68 35px 0 35px;
     font-size: 26px;
-  }
+  } */
 }
 
 @keyframes move {
