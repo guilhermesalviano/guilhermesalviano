@@ -1,17 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import gigprintImg from "../../images/gigprint_telas.jpg";
 import './styles.css';
 
 const Portifolio = () => {
+    const [modal, setModal] = useState(false);
+    const [img, setImg] = useState();
+
+    function zoomImg(modal, imgClicked) {
+        setModal(modal);
+        setImg(imgClicked);
+    }
+
+    useEffect(() => {
+        if(modal)
+            document.body.style.overflow = 'hidden';
+        else
+            document.body.style.overflow = 'unset';
+    }, [modal]);
+
     return (
         <div className="app-portifolio" id="app-portifolio">
+            <div  onClick={() => setModal(!modal)} className={modal? "app-portifolio-modal-true" : "app-portifolio-modal-false"} >
+                <img src={img} alt="GIGPrint" width="70%" />
+            </div>
             <h2>Portfólio</h2>
             <div className="app-portifolio-container">
                 <div className="app-portifolio">
-                    <img src={gigprintImg} alt="GIGPrint" width="320"/>
+                    <img src={gigprintImg} alt="GIGPrint" width="320" onClick={() => zoomImg(!modal, gigprintImg)}/>
                 </div>
                 <div className="app-portifolio">
-                    <img src={gigprintImg} alt="GIGPrint" width="320"/>
+                    <img src={gigprintImg} alt="GIGPrint" width="320" onClick={() => zoomImg(!modal, gigprintImg)}/>
                 </div>
             </div>
         </div>
