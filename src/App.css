@@ -48,7 +48,7 @@
   justify-content: center;
   align-items: flex-start;
   width: 55%;
-  padding-left: 130px;
+  padding-left: 12%;
   height: 70vh;
 }
 
@@ -124,7 +124,7 @@ ul {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) { /*900px*/
 
   .App-Content-Image {
     display: none;
