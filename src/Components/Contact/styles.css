@@ -13,7 +13,8 @@
     border: 2px solid #ffffff;
     background-color: #282c34;
     margin-bottom: 5px;
-    min-width: 360px;
+    width: 100%;
+    max-width: 360px;
     border-radius: 3px;
     padding: 5px 8px;
     font-family: "Helvetica Neue", Roboto;
