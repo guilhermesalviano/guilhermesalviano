@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import imgPerfil from "./images/perfil.jpeg";
 import "./App.css";
-import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 function App() {
