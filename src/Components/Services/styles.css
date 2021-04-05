@@ -40,6 +40,9 @@
     font-size: 16px;
 }
 
-@media only screen and (max-width: 850px) { /*900px*/
-
+@media only screen and (max-width: 400px) {
+    .app-service {
+        max-width: 60vw;
+        width: 100%;
+    }
 }
