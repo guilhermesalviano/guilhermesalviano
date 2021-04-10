@@ -19,7 +19,7 @@ const Services = () => {
                 <div className="app-service">
                     <FaUserPlus size={52} color="#fff" />
                     <h4>Estratégias de CRM</h4>
-                    <p>Desenvolvimento de estatégias de Marketing Digital para captura e conversão de leads</p>
+                    <p>Desenvolvimento de estatégias de Marketing Digital para captura e conversão de leads.</p>
                 </div>
                 <div className="app-service">
                     <GiSolarSystem size={52} color="#fff" />

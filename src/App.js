@@ -2,6 +2,7 @@ import React from "react";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Portifolio from "./Components/Portifolio";
+import DownloadCV from "./Components/DownloadCV";
 import TypeIt from "typeit-react";
 import {
 	FaGithub,
@@ -100,6 +101,7 @@ function App() {
 			<About />
 			<Services />
 			<Portifolio />
+			<DownloadCV />
 			{/* <Contact /> */}
 			<Footer />
 		</div>
