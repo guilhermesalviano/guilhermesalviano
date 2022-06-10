@@ -8,7 +8,7 @@
 - Após o termino do contrato, fui efetivado como Assistente de CRM
 - Passei pela LTM Fidelidade como Analista de Marketing
 - atuei como Analista de CRM Pleno na Enext consultoria.
-- Atualmente sou Analista de CRM Sênior na Enext.
+- Atuei como Analista de CRM Sênior na Enext.
 
 <!--## Principais linguagens
 <p align="center">
