@@ -1,7 +1,7 @@
 # Seja Bem Vindo 👋
 
 ## Meu nome é Guilherme!
-- Sou Técnico em Desenvolvimento de Sistemas pela ETEC e atualmente estudo Analise e Desenvolvimento de Sistemas pela Anhembi Morumbi.
+- Sou Técnico em Desenvolvimento de Sistemas pela ETEC e atualmente estudo Jogos Digitais na Fatec.
 
 ## Carreira Profissional
 - Iniciei como Jovem Aprendiz na Catho na área de CRM.
