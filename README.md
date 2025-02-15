@@ -5,6 +5,4 @@ Minha carreira profissional começou como Jovem Aprendiz na área de CRM, onde t
 
 Além da minha trajetória profissional, tenho grande interesse em áreas como desenvolvimento de sistemas, jogos digitais, automação e análise de dados. 
 
-Se quiser trocar ideias ou colaborar em projetos, estou sempre aberto a novas conexões e desafios!
-
-Veja meu perfil do linkedin <a href="https://www.linkedin.com/in/guilherme-salviano">clicando aqui</a>.
+Se quiser trocar ideias ou colaborar em projetos, estou sempre aberto a novas conexões e desafios.
