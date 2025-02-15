@@ -7,6 +7,4 @@ Além da minha trajetória profissional, tenho grande interesse em áreas como d
 
 Se quiser trocar ideias ou colaborar em projetos, estou sempre aberto a novas conexões e desafios!
 
-Veja meus projetos <a href="https://github.com/guilhermesalviano/Projects">clicando aqui</a>. <br />
-
 Veja meu perfil do linkedin <a href="https://www.linkedin.com/in/guilherme-salviano">clicando aqui</a>.
