@@ -1,59 +1,12 @@
-# Seja Bem Vindo 👋
+### Meu nome é Guilherme, 
+mas pode me chamar de Guibs. Graduado em Desenvolvimento de Sistemas pela ETEC e atualmente estou cursando Jogos Digitais na Fatec. Sou apaixonado por tecnologia, inovação e soluções que impactam positivamente a vida das pessoas.
 
-## Meu nome é Guilherme!
-- Sou Técnico em Desenvolvimento de Sistemas pela ETEC e atualmente estudo Jogos Digitais na Fatec.
+Minha carreira profissional começou como Jovem Aprendiz na área de CRM, onde tive a oportunidade de aprender e crescer. Desde então, passei por experiências enriquecedoras, como Analista de Marketing e Analista de CRM Pleno e Sênior na Enext Consultoria, onde pude desenvolver habilidades técnicas e estratégicas.
 
-## Carreira Profissional
-- Iniciei como Jovem Aprendiz na Catho na área de CRM.
-- Após o termino do contrato, fui efetivado como Assistente de CRM
-- Passei pela LTM Fidelidade como Analista de Marketing
-- atuei como Analista de CRM Pleno na Enext consultoria.
-- Atuei como Analista de CRM Sênior na Enext.
+Além da minha trajetória profissional, tenho grande interesse em áreas como desenvolvimento de sistemas, jogos digitais, automação e análise de dados. 
 
-<!--## Principais linguagens
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermesalviano&layout=compact"
-    />
-  </a>
-</p-->
+Se quiser trocar ideias ou colaborar em projetos, estou sempre aberto a novas conexões e desafios!
 
-## Skills
-<p align="center">
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
-</p>
+Veja meus projetos <a href="https://github.com/guilhermesalviano/Projects">clicando aqui</a>. <br />
 
-## Projetos
-- <a href="https://github.com/guilhermesalviano/Projects">Ir para projetos.</a>
-
-## Contatos:
-<p align="center">
-    <a target="_blank" href="https://www.linkedin.com/in/guilhermesalvian0">
-        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&link=mailto:https://www.linkedin.com/in/guilhermesalvian0/">
-    </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a target="_blank" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511948449969&text=Ol%C3%A1+Guilherme,+encontrei+seu+n%C3%BAmero+pelo+seu+site+e+">
-        <img  height="32" width="32" src="https://simpleicons.org/icons/whatsapp.svg?&style=for-the-badge&logo=whatsapp&logoColor=green">
-    </a>
-</p>
-
-<p align="center"> 
-
- ## Total de Visitas no perfil<br>
- <p align="center"> 
-   <img alingn="center" src="https://profile-counter.glitch.me/guilhermesalviano/count.svg" />
- </p>
-
-</p>
+Veja meu perfil do linkedin <a href="https://www.linkedin.com/in/guilherme-salviano">clicando aqui</a>.
