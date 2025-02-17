@@ -8,7 +8,7 @@ export default function Page() {
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
           Hi! My name is Guilherme,
         </h1>
-        <Image src="https://avatars.githubusercontent.com/u/36766110?v=4&size=48" width="48" height="48" className="rounded-full" />
+        <Image src="https://avatars.githubusercontent.com/u/36766110?v=4&size=48" width="48" height="48" alt="Profile" className="rounded-full" />
       </div>
       <p className="mb-4">
         {`but you can call me Guibs. I graduated in Systems Development from ETEC and am currently studying Digital Games at Fatec. I’m passionate about technology, innovation, and solutions that positively impact people’s lives.`}
