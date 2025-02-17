@@ -1,11 +1,15 @@
-import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
+// import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Hi! My name is Guilherme,
-      </h1>
+      <div className="flex items-center justify-between">
+        <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+          Hi! My name is Guilherme,
+        </h1>
+        <Image src="https://avatars.githubusercontent.com/u/36766110?v=4&size=48" width="48px" height="48px" className="rounded-full" />
+      </div>
       <p className="mb-4">
         {`but you can call me Guibs. I graduated in Systems Development from ETEC and am currently studying Digital Games at Fatec. I’m passionate about technology, innovation, and solutions that positively impact people’s lives.`}
       </p>
