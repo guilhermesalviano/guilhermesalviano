@@ -1,7 +1,12 @@
 // import { BlogPosts } from 'app/components/posts'
 
+import Footer from "./components/footer"
+import { Navbar } from "./components/nav"
+
 export default function Page() {
   return (
+    <div className="flex-auto min-w-0 flex flex-col mx-4 mt-8 px-2 md:px-0 max-w-xl lg:mx-auto">
+    <Navbar />
     <section>
       <div className="flex items-baseline flex-col-reverse md:flex-row justify-between">
         <div>
@@ -20,6 +25,8 @@ export default function Page() {
       <p className="mb-4">
         {`Let’s connect and create something amazing!`}
       </p>
-    </section>
+      </section>
+      <Footer />
+    </div>
   )
 }
