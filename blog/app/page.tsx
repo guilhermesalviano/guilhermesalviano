@@ -5,7 +5,7 @@ export default function Page() {
     <section>
       <div className="flex items-baseline flex-col-reverse md:flex-row justify-between">
         <div>
-          <h1 className="my-6  text-2xl font-semibold tracking-tighter">
+          <h1 className="mb-6  text-2xl font-semibold tracking-tighter">
             Hi! My name is Guilherme,
           </h1>
           <p className="mb-4">
