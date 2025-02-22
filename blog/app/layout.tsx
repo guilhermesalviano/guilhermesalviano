@@ -9,15 +9,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Portfolio by Guilherme Salviano',
-    template: '%s | Portfolio by Guilherme Salviano',
+    default: 'CRM Developer & Game Developer | Guilherme Salviano',
+    template: '%s | CRM Developer & Game Developer | Guilherme Salviano',
   },
-  description: '* about Guilherme Salviano.',
+  description: 'A CRM Developer with Mid & Senior experience at Enext Consultoria, currently studying Digital Games at Fatec.',
   openGraph: {
-    title: 'Guilherme Salviano Portfolio',
-    description: '* about Guilherme Salviano.',
+    title: 'Guilherme Salviano | CRM Developer & Game Developer',
+    description: 'A CRM Developer with Mid & Senior experience at Enext Consultoria, currently studying Digital Games at Fatec.',
     url: baseUrl,
-    siteName: 'Portfolio by Guilherme Salviano',
+    siteName: 'CRM Developer & Game Developer | Guilherme Salviano',
     locale: 'pt_BR',
     type: 'website',
   },

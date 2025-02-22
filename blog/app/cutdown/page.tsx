@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function dateCalculator(date: Date): number[] {
     const now = new Date();
-    console.log(now)
+
     const diffMs = date.getTime() - now.getTime();
 
     if (diffMs <= 0) return [0, 0, 0, 0];
