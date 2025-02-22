@@ -1,5 +1,5 @@
 "use client"
-import { Cutdown } from "app/components/cutdown";
+import { Countdown } from "app/components/countdown";
 import { useState, useEffect } from "react";
 
 function dateCalculator(date: Date): number[] {
@@ -40,9 +40,9 @@ export default function page() {
     return (
         <div className="w-screen h-screen flex flex-col justify-center items-center text-center">
             <h1 className="text-4xl"><span className="text-purple-600 font-extrabold">JADE</span> IN SP</h1>
-            { hasStarted ? (
-                <Cutdown timeLeft={timeLeft.map((value) => String(value).padStart(2, '0'))} />
-            ): (
+            {hasStarted ? (
+                <Countdown timeLeft={timeLeft.map((value) => String(value).padStart(2, '0'))} />
+            ) : (
                 <p>Jade, pq me odeias?</p>
             )}
         </div>

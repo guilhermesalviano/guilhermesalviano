@@ -1,5 +1,3 @@
-// import { BlogPosts } from 'app/components/posts'
-
 import Footer from "./components/footer"
 import { Navbar } from "./components/nav"
 

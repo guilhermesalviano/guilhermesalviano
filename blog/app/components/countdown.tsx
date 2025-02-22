@@ -1,7 +1,7 @@
 type CutdownProps = {
     timeLeft: Array<string>
 }
-export function Cutdown({ timeLeft }: CutdownProps) {
+export function Countdown({ timeLeft }: CutdownProps) {
     const [days, hours, minutes, seconds] = timeLeft;
 
     return (
