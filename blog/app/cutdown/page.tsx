@@ -36,7 +36,9 @@ export default function page() {
         return () => clearTimeout(timeoutId);
     }, []);
 
-    const [days, hours, minutes, seconds] = timeLeft;
+    const [days, hours, minutes, seconds] = timeLeft.map((value) =>
+        String(value).padStart(2, '0')
+    );
 
     return (
         <div className="w-screen h-screen flex flex-col justify-center items-center text-center">
