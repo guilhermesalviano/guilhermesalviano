@@ -18,9 +18,9 @@ function dateCalculator(date: Date): number[] {
 }
 
 export default function page() {
-    const dateToJadeInSP = new Date('2025-04-10T00:00');
+    const dateToOneYear = new Date('2025-04-10T00:00');
 
-    const [timeLeft, setTimeLeft] = useState(() => dateCalculator(dateToJadeInSP));
+    const [timeLeft, setTimeLeft] = useState(() => dateCalculator(dateToOneYear));
     const [hasStarted, setHasStarted] = useState(false);
 
     useEffect(() => {
@@ -29,7 +29,7 @@ export default function page() {
             setHasStarted(true);
 
             const intervalId = setInterval(() => {
-                setTimeLeft(dateCalculator(dateToJadeInSP));
+                setTimeLeft(dateCalculator(dateToOneYear));
             }, 1000);
 
             return () => clearInterval(intervalId);
