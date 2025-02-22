@@ -17,7 +17,7 @@ export function BlogPosts() {
         })
         .map((post) => (
           <Link href="https://url-encoder.koaris.com.br/" key={post.slug}>
-            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
+            <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
               <p className="text-neutral-600 dark:text-neutral-400 w-[138px] tabular-nums">
                 {formatDate(post.metadata.publishedAt, false)}
               </p>

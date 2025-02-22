@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="flex-auto min-w-0 mx-4 mt-8 flex flex-col px-2 md:px-0 max-w-xl lg:mx-auto">
+    <div className="flex-auto min-w-0 mx-4 mt-8 flex flex-col px-2 md:px-0 max-w-xl sm:mx-auto">
       <Navbar />
       <section>
         <h1 className="font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>

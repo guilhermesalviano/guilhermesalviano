@@ -18,7 +18,7 @@ function dateCalculator(date: Date): number[] {
 }
 
 export default function page() {
-    const dateToJadeInSP = new Date('2025-03-27T00:00');
+    const dateToJadeInSP = new Date('2025-04-10T00:00');
 
     const [timeLeft, setTimeLeft] = useState(() => dateCalculator(dateToJadeInSP));
     const [hasStarted, setHasStarted] = useState(false);
@@ -39,7 +39,7 @@ export default function page() {
 
     return (
         <div className="w-screen h-screen flex flex-col justify-center items-center text-center">
-            <h1 className="text-4xl"><span className="text-purple-600 font-extrabold">JADE</span> IN SP</h1>
+            <h1 className="text-4xl">Tempo <span className="text-purple-600 font-extrabold">para 1 Ano ❤️ </span></h1>
             { hasStarted ? (
                 <Cutdown timeLeft={timeLeft.map((value) => String(value).padStart(2, '0'))} />
             ): (
