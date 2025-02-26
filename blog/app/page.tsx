@@ -12,13 +12,13 @@ export default function Page() {
             Hi! My name is Guilherme,
           </h1>
           <p className="mb-4">
-            {`but you can call me Guibs. I graduated in Systems Development from ETEC and am currently studying Digital Games at Fatec. I’m passionate about technology, innovation, and solutions that positively impact people’s lives.`}
+            {`but you can call me Guibs. I graduated in Systems Development from ETEC and am currently studying Digital Games at Fatec. `}
           </p>
         </div>
-        <img src="https://avatars.githubusercontent.com/u/36766110?v=4&size=116" className="w-[116px] h-[116px] rounded-full m-auto object-cover max-md:pb-4" />
+        <img src="https://avatars.githubusercontent.com/u/36766110?v=4&size=116" className="w-[116px] h-[116px] rounded-full m-auto object-cover max-md:mb-4" />
       </div>
       <p className="mb-4">
-        {`My career began as a CRM Apprentice, where I learned and grew. Since then, I’ve gained valuable experience as a CRM Developer (Mid and Senior levels) at Enext Consultoria, honing both technical and strategic skills along the way.`}
+          {`I’m passionate about technology, and over the past few years, my ambition has been to create a software development company. This company would not only focus on building innovative solutions but also be responsible for managing access to the software it creates.`}
       </p>
       <p className="mb-4">
         {`Let’s connect and create something amazing!`}
