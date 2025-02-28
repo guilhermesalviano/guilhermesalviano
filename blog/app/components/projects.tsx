@@ -5,23 +5,13 @@ export function Projects() {
 
   return (
     <div className='flex flex-col gap-3'>
-      <Link target='_blank' href="https://koaris.com.br/tools/base64-decode">
+      <Link href={`https://koaris.com.br/tools/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
         <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate('2025-02-24', false)}
+          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
+            {formatDate('2025-02-24', false)} - Present
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Base64 Encoder & Decoder
-          </p>
-        </div>
-      </Link>
-      <Link target='_blank' href="https://koaris.com.br/tools/url-encoder">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate('2025-02-16', false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            URL Encoder & Decoder
+            Marketing Tools
           </p>
         </div>
       </Link>
@@ -35,7 +25,7 @@ export function Projects() {
           </p>
         </div>
       </Link>
-      <Link target='_blank' href="https://koaris.com.br/">
+      <Link href={`https://koaris.com.br/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
         <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
           <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
             {formatDate('2023-08-05', false)} - Present
