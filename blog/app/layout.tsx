@@ -32,6 +32,18 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+  other: {
+    'application/ld+json': JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      'url': 'https://koaris.com.br',
+      'logo': 'https://koaris.com.br/logo.png'
+    })
+  }
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
