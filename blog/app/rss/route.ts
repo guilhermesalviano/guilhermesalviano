@@ -4,9 +4,9 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0">
     <channel>
-        <title>Portfolio by Guilherme Salviano</title>
+        <title>CRM Developer & Software Developer | Guilherme Salviano</title>
         <link>${baseUrl}</link>
-        <description>* about Guilherme Salviano</description>
+        <description>A CRM Developer with Mid & Senior experience at Enext Consultoria, currently studying Digital Games at Fatec.</description>
         <item>
           <title>Projects | Guilherme Salviano</title>
           <link>${baseUrl}/projects</link>

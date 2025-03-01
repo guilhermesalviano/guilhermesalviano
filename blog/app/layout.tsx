@@ -40,10 +40,16 @@ export const metadata: Metadata = {
     'application/ld+json': JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      'url': 'https://koaris.com.br',
-      'logo': 'https://koaris.com.br/logo.png'
+      'url': 'https://guilhermesalviano.dev',
+      'logo': 'https://guilhermesalviano.dev/logo.png'
     })
-  }
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Guilherme Salviano | CRM Developer & Software Developer',
+    description: 'A CRM Developer with Mid & Senior experience at Enext Consultoria, currently studying Digital Games at Fatec.',
+    images: `https://guilhermesalviano.dev/logo.png`,
+  },
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
