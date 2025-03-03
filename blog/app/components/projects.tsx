@@ -5,10 +5,20 @@ export function Projects() {
 
   return (
     <div className='flex flex-col gap-3'>
+      <Link href={`https://koaris.me/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
+        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
+          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
+            {formatDate('2025-03-03', false)} - Present
+          </p>
+          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+            Koaris.me
+          </p>
+        </div>
+      </Link>
       <Link href={`https://koaris.com.br/tools/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
         <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
           <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate('2025-02-24', false)} - Present
+            {formatDate('2025-02-24', false)} - {formatDate('2025-03-03', false)}
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
             Marketing Tools

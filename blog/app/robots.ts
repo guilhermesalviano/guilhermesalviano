@@ -5,7 +5,8 @@ export default function robots() {
     rules: [
       {
         userAgent: '*',
-        allow: "/"
+        allow: "/",
+        disallow: ["/countdown", "/time-to-a-year"],
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
