@@ -85,13 +85,23 @@ export function Projects() {
           </p>
         </div>
       </Link>
+      <Link target='_blank' href="https://github.com/guilhermesalviano/nlw2-Proffy">
+        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
+          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
+            {formatDate('2020-08-11', false)}
+          </p>
+          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+            Rocketseat - Proffy
+          </p>
+        </div>
+      </Link>
       <Link target='_blank' href="https://github.com/guilhermesalviano/ecoleta">
         <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
           <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
             {formatDate('2020-06-02', false)}
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Ecoleta
+            Rocketseat - Ecoleta
           </p>
         </div>
       </Link>
@@ -101,7 +111,7 @@ export function Projects() {
             {formatDate('2020-03-27', false)}
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            To be hero
+            Rocketseat - To be hero
           </p>
         </div>
       </Link>
