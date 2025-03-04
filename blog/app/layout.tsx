@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { baseUrl } from './sitemap'
 import './global.css'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -68,6 +69,13 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <Head>
+        <meta property="og:title" content="Software Developer | Guilherme Salviano" />
+        <meta property="og:description" content="Your description here" />
+        <meta property="og:image" content="https://guilhermesalviano.dev/og" />
+        <meta property="og:url" content="https://guilhermesalviano.dev" />
+        <meta property="og:type" content="website" />
+      </Head>
       <body className="antialiased">
         <main>
           {children}
