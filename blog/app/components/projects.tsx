@@ -85,6 +85,16 @@ export function Projects() {
           </p>
         </div>
       </Link>
+      <Link target='_blank' href="https://github.com/guilhermesalviano/messenger-clone">
+        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
+          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
+            {formatDate('2020-08-14', false)}
+          </p>
+          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+            Messenger Clone for Mobile
+          </p>
+        </div>
+      </Link>
       <Link target='_blank' href="https://github.com/guilhermesalviano/nlw2-Proffy">
         <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
           <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
