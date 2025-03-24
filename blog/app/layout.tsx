@@ -71,7 +71,6 @@ export default function RootLayout({
     >
       <Head>
         <meta property="og:title" content="Software Developer | Guilherme Salviano" />
-        <meta property="og:description" content="Your description here" />
         <meta property="og:image" content="https://guilhermesalviano.dev/og" />
         <meta property="og:url" content="https://guilhermesalviano.dev" />
         <meta property="og:type" content="website" />
