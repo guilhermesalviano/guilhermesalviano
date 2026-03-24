@@ -1,4 +1,5 @@
-import { formatDate } from "app/blog/utils"
+
+import { formatDate } from "app/utils/formatDate"
 import Link from "next/link"
 
 type Project = {
