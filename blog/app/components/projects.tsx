@@ -1,130 +1,126 @@
 import { formatDate } from "app/blog/utils"
 import Link from "next/link"
 
-export function Projects() {
+type Project = {
+  href: string
+  label: string
+  startDate: string
+  endDate?: string
+  utmTracked?: boolean
+}
+
+const UTM_BASE = "utm_source=portifolio&utm_medium=site&campaign=seemyprojects"
+
+function withUtm(url: string): string {
+  const date = new Date().toISOString().split("T")[0]
+  return `${url}?${UTM_BASE}&utm_content=${date}`
+}
+
+const projects: Project[] = [
+  {
+    href: "https://github.com/guilhermesalviano/casaos-coredash",
+    label: "Personal Projects - Coredash",
+    startDate: "2026-03-05",
+  },
+  {
+    href: "https://koaris.me/",
+    label: "Koaris.me",
+    startDate: "2025-05-03",
+    utmTracked: true,
+  },
+  {
+    href: "https://koaris.com/",
+    label: "Koaris Tools",
+    startDate: "2025-02-24",
+    endDate: "2025-03-03",
+    utmTracked: true,
+  },
+  {
+    href: "https://github.com/koaris",
+    label: "Koaris Auth",
+    startDate: "2024-11-05",
+  },
+  {
+    href: "https://github.com/koaris",
+    label: "Koaris",
+    startDate: "2023-08-05",
+    utmTracked: true,
+  },
+  {
+    href: "https://koaris.github.io/bloom-ui/",
+    label: "Koaris - Design System - Bloom-ui",
+    startDate: "2023-12-04",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/smaug-preco-do-poder",
+    label: "Visual Novel - Preço do poder",
+    startDate: "2023-08-24",
+    endDate: "2023-11-27",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/ekko-project",
+    label: "Platform game - Ekko",
+    startDate: "2022-04-01",
+    endDate: "2022-07-26",
+  },
+  {
+    href: "https://github.com/guilhermesalviano",
+    label: "Graphyk",
+    startDate: "2020-06-18",
+    endDate: "2021-10-20",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/messenger-clone",
+    label: "Messenger Clone for Mobile",
+    startDate: "2020-08-14",
+    endDate: "2020-08-20",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/nlw2-Proffy",
+    label: "Rocketseat - Proffy",
+    startDate: "2020-08-11",
+    endDate: "2020-08-18",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/ecoleta",
+    label: "Rocketseat - Ecoleta",
+    startDate: "2020-06-02",
+    endDate: "2020-06-09",
+  },
+  {
+    href: "https://github.com/guilhermesalviano/to-be-hero",
+    label: "Rocketseat - To be hero",
+    startDate: "2020-03-27",
+    endDate: "2020-05-03",
+  },
+]
+
+function ProjectRow({ href, label, startDate, endDate, utmTracked }: Project) {
+  const resolvedHref = utmTracked ? withUtm(href) : href
+  const dateRange = endDate
+    ? `${formatDate(startDate, false)} - ${formatDate(endDate, false)}`
+    : `${formatDate(startDate, false)}${!endDate ? " - Present" : ""}`
 
   return (
+    <Link target="_blank" href={resolvedHref}>
+      <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
+        <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
+          {dateRange}
+        </p>
+        <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+          {label}
+        </p>
+      </div>
+    </Link>
+  )
+}
+
+export function Projects() {
+  return (
     <div className="flex flex-col gap-3">
-      <Link target="_blank" href={`https://koaris.me/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2025-05-03", false)} - Present
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Koaris.me
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href={`https://koaris.com/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2025-02-24", false)} - {formatDate("2025-03-03", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Marketing Tools
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/koaris">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2024-11-05", false)} - Present
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Koaris Auth
-          </p>
-        </div>
-      </Link>
-      <Link href={`https://koaris.com.br/?utm_source=portifolio&utm_medium=site&campaign=seemyprojects&utm_content=${new Date().toISOString().split("T")[0]}`}>
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2023-08-05", false)} - Present
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Koaris
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://koaris.github.io/bloom-ui/">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2023-12-04", false)} - Present
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Design System - Bloom-ui
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/smaug-preco-do-poder">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2023-08-24", false)} - {formatDate("2023-11-27", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Visual Novel - Preço do poder
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/ekko-project">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2022-04-01", false)} - {formatDate("2022-07-26", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Platform game - Ekko
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 w-[160px] min-w-20 tabular-nums">
-            {formatDate("2020-06-18", false)} - {formatDate("2021-10-20", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Graphyk
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/messenger-clone">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate("2020-08-14", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Messenger Clone for Mobile
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/nlw2-Proffy">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate("2020-08-11", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Rocketseat - Proffy
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/ecoleta">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate("2020-06-02", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Rocketseat - Ecoleta
-          </p>
-        </div>
-      </Link>
-      <Link target="_blank" href="https://github.com/guilhermesalviano/to-be-hero">
-        <div className="w-full flex max-sm:flex-col flex-row space-x-0 sm:space-x-2">
-          <p className="text-neutral-600 dark:text-neutral-400 min-w-20 tabular-nums">
-            {formatDate("2020-03-27", false)}
-          </p>
-          <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-            Rocketseat - To be hero
-          </p>
-        </div>
-      </Link>
+      {projects.map((project, id) => (
+        <ProjectRow key={id} {...project} />
+      ))}
     </div>
   )
 }
