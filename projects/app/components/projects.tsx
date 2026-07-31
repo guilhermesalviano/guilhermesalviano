@@ -19,15 +19,20 @@ function withUtm(url: string): string {
 
 const projects: Project[] = [
   {
+    href: "https://github.com/guilhermesalviano/koris-agent",
+    label: "Koris agent",
+    startDate: "2026-05-15",
+  },
+  {
     href: "https://github.com/guilhermesalviano/casaos-coredash",
     label: "Personal Projects - Coredash",
     startDate: "2026-03-05",
   },
   {
-    href: "https://koaris.me/",
-    label: "Koaris.me",
+    href: "https://github.com/guilhermesalviano/koaris-url-shortener",
+    label: "URL Shortener",
     startDate: "2025-05-03",
-    utmTracked: true,
+    endDate: "2025-09-20",
   },
   {
     href: "https://koaris.com/",
@@ -72,7 +77,7 @@ const projects: Project[] = [
   },
   {
     href: "https://github.com/guilhermesalviano/messenger-clone",
-    label: "Messenger Clone for Mobile",
+    label: "POC in React Native - Messenger Clone",
     startDate: "2020-08-14",
     endDate: "2020-08-20",
   },
